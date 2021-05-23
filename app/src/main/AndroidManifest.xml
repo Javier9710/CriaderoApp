@@ -20,16 +20,16 @@
         -->
 
 
-        <!--  <activity
-             android:name=".HomeActivity"
-             android:label="@string/title_activity_estanque">
-             <intent-filter>
-                 <action android:name="android.intent.action.MAIN" />
+       <!-- <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_estanque">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                 <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
-         </activity> -->
-        <activity android:name=".HomeActivity" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +37,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".EstanqueActivity"></activity>
     </application>
 
 </manifest>
