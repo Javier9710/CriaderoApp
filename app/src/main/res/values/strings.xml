@@ -12,4 +12,9 @@
     <string name="recuperarclave">Recuperela Aqui</string>
     <string name="tituloLogin">Login</string>
     <string name="title">LOGIN</string>
+    <string name="RegEstante">Registro de Estante</string>
+    <string name="Actividad">Actividad Diaria</string>
+    <string name="Estadisticas">Estadisticas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
