@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537439977924",
+    "project_id": "criaderoapp",
+    "storage_bucket": "criaderoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537439977924:android:cffb170747d8b2194a2491",
+        "android_client_info": {
+          "package_name": "co.edu.ufps.criaderoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537439977924-b8rvm90hujonk08kbfch29cjnuul61mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM-ErwpRjAm6LPhen6RwMPIZh85Yh02i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537439977924-b8rvm90hujonk08kbfch29cjnuul61mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

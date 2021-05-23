@@ -10,4 +10,6 @@
     <string name="textcrearusuario">Cree uno qui</string>
     <string name="olvidoclave">Olvido su clave, </string>
     <string name="recuperarclave">Recuperela Aqui</string>
+    <string name="tituloLogin">Login</string>
+    <string name="title">LOGIN</string>
 </resources>

@@ -1,15 +1,12 @@
 package co.edu.ufps.criaderoapp
 
 import android.os.Bundle
-import android.support.wearable.activity.WearableActivity
+import androidx.appcompat.app.AppCompatActivity
 
-class HomeActivity : WearableActivity() {
+class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
-        // Enables Always-on
-        setAmbientEnabled()
     }
 }
