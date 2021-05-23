@@ -34,7 +34,7 @@ class EstanteFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_estante, container, false)
+        return inflater.inflate(R.layout.fragment_estanque, container, false)
     }
 
     companion object {
