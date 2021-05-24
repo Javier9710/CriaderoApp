@@ -17,7 +17,10 @@ class HomeActivity : AppCompatActivity() {
         startActivity(intent);
     }
 
-    fun entraInsumos(view: View) {}
+    fun entraInsumos(view: View) {
+        val intent = Intent(this, InsumoActivity::class.java);
+        startActivity(intent);
+    }
 
     fun entraEstadistica(view: View) {}
 

@@ -14,13 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CriaderoApp">
 
+
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
 
-
-       <!-- <activity
+ <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_estanque">
             <intent-filter>
@@ -28,7 +28,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> -->
+        </activity>
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -37,8 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".EstanqueActivity"></activity>
+        <!--<activity android:name=".HomeActivity" />-->
+        <activity android:name=".EstanqueActivity" />
+        <activity android:name=".InsumoActivity"/>
     </application>
 
 </manifest>
