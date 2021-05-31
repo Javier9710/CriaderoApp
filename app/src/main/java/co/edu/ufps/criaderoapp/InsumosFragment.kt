@@ -45,7 +45,7 @@ class InsumosFragment : Fragment() {
         contenedorInsumos.layoutManager = linearLayout
         adapterInsumo = AdapterInsumo(context, cargarDatos(), R.id.insumo)
         contenedorInsumos.adapter = adapterInsumo
-        return view;
+        return view
     }
 
     private fun cargarDatos(): ArrayList<InsumoEntity> {

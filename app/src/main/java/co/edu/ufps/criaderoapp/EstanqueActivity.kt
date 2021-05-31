@@ -10,6 +10,7 @@ class EstanqueActivity : AppCompatActivity() {
 
     lateinit var tabLayout : TabLayout;
     lateinit var viewPager : ViewPager;
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_estanque)

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
 
-        android:id="@+id/insumo"
-        android:layout_marginTop="30dp"
-        android:layout_width="364dp"
-        android:layout_height="50dp"
-        android:gravity="center_vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="16dp">
+            android:id="@+id/insumo"
+            android:layout_marginTop="30dp"
+            android:layout_width="364dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="16dp">
 
 
-        <TextView
+            <TextView
 
-            android:id="@+id/id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:text="ID    |" />
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="ID    |"></TextView>
 
-        <TextView
-            android:id="@+id/nombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:text=" NOMBRE     |" />
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text=" NOMBRE     |"></TextView>
 
-        <TextView
-            android:id="@+id/cantidad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="50dp"
-            android:text=" CANTIDAD    |" />
+            <TextView
+                android:id="@+id/cantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="50dp"
+                android:text=" CANTIDAD    |"></TextView>
 
-        <TextView
-            android:id="@+id/proveedor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="250dp"
-            android:layout_marginRight="10dp"
-            android:text=" PROVEEDOR" />
-    </FrameLayout>
-
+            <TextView
+                android:id="@+id/proveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginRight="10dp"
+                android:text=" PROVEEDOR">
+            </TextView>
+        </FrameLayout>

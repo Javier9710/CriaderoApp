@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.429" />
 
     <ImageButton
-        android:id="@+id/EntraEstanques"
+
         android:layout_width="96dp"
         android:layout_height="98dp"
         android:onClick="entraEstanques"
@@ -74,6 +74,7 @@
         app:layout_constraintVertical_bias="0.564" />
 
     <ImageButton
+        android:id="@+id/EntraInsumos"
         android:layout_width="96dp"
         android:layout_height="98dp"
         android:background="@drawable/insumos"

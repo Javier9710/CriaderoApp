@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 
+
 class InsumoActivity : AppCompatActivity() {
 
     lateinit var tabLayout : TabLayout;
@@ -18,6 +19,7 @@ class InsumoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_insumo)
         tabLayout = findViewById(R.id.principal2);
         viewPager = findViewById(R.id.viewpager2);
         tabLayout.tabGravity = TabLayout.GRAVITY_FILL

@@ -30,7 +30,7 @@ class AdapterInsumo(var context:Context?,
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InusmoViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.activity_insumo, parent,false)
+            .inflate(R.layout.list_insumo, parent,false)
         return InusmoViewHolder(view);
     }
 
