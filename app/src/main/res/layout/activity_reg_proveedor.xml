@@ -11,14 +11,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FORMULARIO DE INSUMOS"
+        android:text="FORMULARIO DE PROVEEDORES"
         android:textAppearance="?attr/textAppearanceHeadline6"
         android:layout_gravity="center"
         android:layout_margin="30dp"
 
         />
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop = "30dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginRight = "10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CODIGO">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -27,7 +41,7 @@
         android:layout_marginRight = "10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ID">
+        android:hint="NOMBRE">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/nombre"
@@ -43,7 +57,7 @@
         android:layout_marginRight = "10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="PRODUCTO">
+        android:hint="DIRECCION">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/direccion"
@@ -58,7 +72,7 @@
         android:layout_marginRight = "10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="CANTIDAD">
+        android:hint="RESPONSABLE">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/responsable"
@@ -74,7 +88,7 @@
         android:layout_marginRight = "10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="PROVEEDOR">
+        android:hint="ID">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/id"

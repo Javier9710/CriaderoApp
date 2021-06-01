@@ -13,13 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CriaderoApp">
-
-
+        <activity android:name=".regProveedorActivity"></activity>
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.

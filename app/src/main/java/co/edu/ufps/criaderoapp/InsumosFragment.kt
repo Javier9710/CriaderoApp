@@ -55,6 +55,8 @@ class InsumosFragment : Fragment() {
 
         insumos.add(InsumoEntity("2", "comida1", "11", "agroIndustria1"))
 
+        insumos.add(InsumoEntity("3", "comida2", "22", "agroIndustria2"))
+
         return insumos;
     }
 

@@ -40,7 +40,7 @@ class ProveedorActivity : AppCompatActivity() {
     }
 
     fun regProveedor(view: View) {
-        val intent = Intent(this, ProveedorActivity::class.java);
+        val intent = Intent(this, regProveedorActivity::class.java);
         startActivity(intent);
     }
 
