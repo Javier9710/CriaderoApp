@@ -13,14 +13,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CriaderoApp">
+        <activity android:name=".ProveedorActivity"></activity>
+        <activity
+            android:name=".ProveedorActivity"
+            android:label="@string/title_activity_proveedor"
+            android:theme="@style/Theme.CriaderoApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
-
- <activity
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_estanque">
             <intent-filter>
@@ -29,17 +48,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!--<activity android:name=".HomeActivity" />-->
+        </activity> <!-- <activity android:name=".HomeActivity" /> -->
         <activity android:name=".EstanqueActivity" />
-        <activity android:name=".InsumoActivity"/>
+        <activity android:name=".InsumoActivity" />
     </application>
 
 </manifest>

@@ -31,4 +31,5 @@
     <string name="descripcion">lo que sea</string>
     <string name="content_description_media">vemos</string>
     <string name="isbn">prueba text</string>
+    <string name="title_activity_proveedor">ProveedorActivity</string>
 </resources>
