@@ -17,14 +17,17 @@ class HomeActivity : AppCompatActivity() {
         startActivity(intent);
     }
 
+    fun entraProveedor(view: View) {
+        val intent = Intent(this, ProveedorActivity::class.java);
+        startActivity(intent);
+    }
+
     fun entraInsumos(view: View) {
         val intent = Intent(this, InsumoActivity::class.java);
         startActivity(intent);
     }
 
-    fun entraEstadistica(view: View) {}
 
-    fun entraProveedor(view: View) {}
-    
-    fun entraNotificaciones(view: View) {}
+
+
 }
