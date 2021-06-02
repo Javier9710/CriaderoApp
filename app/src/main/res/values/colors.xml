@@ -16,4 +16,7 @@
     <color name="teal_700">#ffd0b0</color>
     <color name="black">#c96f53</color>
     <color name="purple_200">#90caf9</color>
+
+    <color name="verde">#00FF80</color>
+    <color name="gris">#CFCFCF</color>
 </resources>

@@ -27,6 +27,15 @@ class HomeActivity : AppCompatActivity() {
         startActivity(intent);
     }
 
+    fun entraNotificaciones(view: View) {
+        val intent = Intent(this, NotificacionActivity::class.java);
+        startActivity(intent);
+    }
+
+
+
+
+
 
 
 
