@@ -21,7 +21,7 @@
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
-        -->
+
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_estanque">
@@ -30,7 +30,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,6 +43,7 @@
         <activity android:name=".ProveedorActivity" />
         <activity android:name=".NotificacionActivity"></activity>
         <activity android:name=".regProveedorActivity" />
+        <activity android:name=".HomeActivity"/>
     </application>
 
 </manifest>
