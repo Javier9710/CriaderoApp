@@ -27,7 +27,7 @@
         android:hint="CODIGO">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/codigo"
+            android:id="@+id/codigOPro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -44,7 +44,7 @@
         android:hint="NOMBRE">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/nombre"
+            android:id="@+id/nombrePro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -60,7 +60,7 @@
         android:hint="DIRECCION">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/direccion"
+            android:id="@+id/direccionPro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -75,7 +75,7 @@
         android:hint="RESPONSABLE">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/responsable"
+            android:id="@+id/responsablePro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -91,10 +91,30 @@
         android:hint="ID">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/id"
+            android:id="@+id/idPro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop = "5dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginRight = "10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONTACTO">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contactoPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,7 +122,7 @@
         android:layout_marginTop = "20dp"
         android:layout_marginLeft = "100dp"
         android:layout_marginRight = "100dp"
-        android:id="@+id/registrar"
+        android:id="@+id/registrarPro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/primaryTextColor"

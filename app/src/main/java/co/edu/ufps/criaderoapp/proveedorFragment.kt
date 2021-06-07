@@ -1,12 +1,14 @@
 package co.edu.ufps.criaderoapp
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.firebase.database.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -44,7 +46,7 @@ class proveedorFragment : Fragment() {
         var linearLayout = LinearLayoutManager(context)
         linearLayout.orientation = LinearLayoutManager.VERTICAL
         contenedorProveedores.layoutManager = linearLayout
-        adapterProveedor = AdapterProveedor(context, cargarDatos(), R.id.Proveedor)
+        adapterProveedor = AdapterProveedor(context, cargarDatosFireBase(), R.id.Proveedor)
         contenedorProveedores.adapter = adapterProveedor
         return view
     }
@@ -57,6 +59,36 @@ class proveedorFragment : Fragment() {
         proveedores.add(ProveedorEntity("2", "111", "AgroP", "av8.#21", "camilo", "1312321"))
 
         return proveedores;
+    }
+
+    fun cargarDatosFireBase(): ArrayList<ProveedorEntity> {
+
+        val proveedores = ArrayList<ProveedorEntity>()
+        val dataBase : FirebaseDatabase = FirebaseDatabase.getInstance()
+        val myRef : DatabaseReference = dataBase.getReference()
+        myRef.child("proveedores").addValueEventListener(object : ValueEventListener
+        {
+            override fun onDataChange(snapshot: DataSnapshot) {
+
+                if (snapshot.exists()) {
+                    proveedores.clear()
+                    for (data in snapshot.children) {
+                        val proveedor = data.getValue(ProveedorEntity::class.java)
+                        proveedores.add(proveedor as ProveedorEntity)
+                        adapterProveedor.notifyDataSetChanged()
+                    }
+
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+
+                Log.w("ProveedorFragment", "Carga cancelada", error.toException())
+            }
+
+        })
+
+        return proveedores
     }
 
     companion object {
