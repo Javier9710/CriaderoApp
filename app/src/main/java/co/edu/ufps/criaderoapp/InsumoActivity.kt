@@ -5,11 +5,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.textfield.TextInputEditText
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 
 class InsumoActivity : AppCompatActivity() {
@@ -20,6 +24,8 @@ class InsumoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_insumo)
+        //---------------------------------------
+        //_------------------------------_--------
         tabLayout = findViewById(R.id.principal2);
         viewPager = findViewById(R.id.viewpager2);
         tabLayout.tabGravity = TabLayout.GRAVITY_FILL
@@ -40,6 +46,8 @@ class InsumoActivity : AppCompatActivity() {
         })
 
     }
+
+
 
 
 
